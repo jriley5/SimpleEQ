@@ -18,8 +18,8 @@ class SimpleEQAudioProcessor  : public juce::AudioProcessor
 public:
     //==============================================================================
     SimpleEQAudioProcessor();
-    ~SimpleEQAudioProcessor() override;
-
+    ~SimpleEQAudioProcessor();
+    
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
     void releaseResources() override;
